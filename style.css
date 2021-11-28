@@ -16,7 +16,7 @@
   width: 100%;
 }
 
-.header .more-inf {
+.header__inf {
   font-family: fantasy, cursive;
 }
 
@@ -33,13 +33,13 @@
   margin: 0 auto 0;
 }
 
-.task {
+.main__task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
 
-.add-task {
+.main__add-task {
   display: flex;
 }
 
@@ -140,13 +140,13 @@ li > input[type="text"] {
   width: 226px;
 }
 
-.delete img {
+.main__delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.delete img:hover {
+.main__delete img:hover {
   transform: rotateZ(0);
 }
 
@@ -161,11 +161,11 @@ li input[type=text] {
   display: none;
 }
 
-.editMode input[type=text] {
+.main__edit-mode input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-.editMode label {
+.main__edit-mode label {
   display: none;
 }
